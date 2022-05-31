@@ -453,11 +453,13 @@ body {
     }
   }
   .es-disc {
+    margin-bottom: 34px;
     &__text {
       text-align: center;
       font-size: 12px;
-      margin-bottom: 24px;
+      margin-bottom:-10px ;
     }
+    
   }
 
   .es-cross {

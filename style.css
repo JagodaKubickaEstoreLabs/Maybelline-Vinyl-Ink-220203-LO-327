@@ -469,10 +469,13 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
 }
+#es-maybelline.es-maybelline .es-disc {
+  margin-bottom: 34px;
+}
 #es-maybelline.es-maybelline .es-disc__text {
   text-align: center;
   font-size: 12px;
-  margin-bottom: 24px;
+  margin-bottom: -10px;
 }
 #es-maybelline.es-maybelline .es-cross {
   padding: 40px 16px;
