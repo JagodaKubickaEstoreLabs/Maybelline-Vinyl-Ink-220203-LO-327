@@ -132,6 +132,12 @@ body {
   font-weight: inherit;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: -2px;
+}
+#es-maybelline.es-maybelline .es-kv__text--title {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Roboto Condensed", sans-serif;
 }
 #es-maybelline.es-maybelline .es-features {
   margin-bottom: 72px;

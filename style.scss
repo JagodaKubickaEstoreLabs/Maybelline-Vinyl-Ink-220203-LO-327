@@ -141,7 +141,13 @@ body {
         @include text;
         text-transform: uppercase;
         color: #fff;
+        letter-spacing: -2px;
       }
+    }
+    &__text--title{
+      font-size: 30px;
+      font-weight: 800;
+      font-family: $condensed;
     }
   }
 
