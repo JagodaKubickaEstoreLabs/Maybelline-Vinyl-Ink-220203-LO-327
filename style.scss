@@ -135,7 +135,7 @@ body {
       align-items: flex-end;
       img{
         max-width: 50px;
-        margin-bottom: 15px
+        margin-bottom: 15px;
       }
       h2{
         @include text;
@@ -648,7 +648,10 @@ body {
             transform: scale(1.05);
           }
           .es-cross__link {
-            color: #fc2561;
+            transition: all 0.3s ease-in-out;
+        color: #000;
+        background-color: #fff;
+        outline: 3px solid #000;
           }
         }
       }

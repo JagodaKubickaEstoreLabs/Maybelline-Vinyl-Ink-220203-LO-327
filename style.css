@@ -661,7 +661,10 @@ body {
     transform: scale(1.05);
   }
   #es-maybelline.es-maybelline .es-cross__single:hover .es-cross__link {
-    color: #fc2561;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+    background-color: #fff;
+    outline: 3px solid #000;
   }
 }
 @-webkit-keyframes appear {
