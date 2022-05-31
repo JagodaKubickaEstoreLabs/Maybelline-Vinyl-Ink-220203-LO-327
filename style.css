@@ -113,8 +113,8 @@ body {
 }
 #es-maybelline.es-maybelline .es-kv__text--two {
   position: absolute;
-  bottom: 32px;
-  right: 42px;
+  bottom: 42px;
+  right: 52px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
