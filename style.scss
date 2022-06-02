@@ -303,6 +303,18 @@ body {
     align-items: center;
     max-width: 180px;
     margin-bottom: 8px;
+    &:hover{
+      .es-colors__link{
+        transition: all 0.3s ease-in-out;
+        color: #000;
+        background-color: #fff;
+        outline: 3px solid #000;
+      }
+      .es-colors__img--lipgloss{
+        opacity: .9;
+        transition: all 0.3s ease-in-out;
+      }
+    }
     }
   &__tile{
     width: 100%;
@@ -339,12 +351,6 @@ body {
       background-color: #000;
       color: #fff;
       letter-spacing: -1px;
-      &:hover{
-        transition: all 0.3s ease-in-out;
-        color: #000;
-        background-color: #fff;
-        outline: 3px solid #000;
-      }
     }
   }
   .es-steps{

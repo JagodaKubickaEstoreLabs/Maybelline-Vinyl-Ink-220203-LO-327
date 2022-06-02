@@ -319,6 +319,16 @@ body {
   max-width: 180px;
   margin-bottom: 8px;
 }
+#es-maybelline.es-maybelline .es-colors__single:hover .es-colors__link {
+  transition: all 0.3s ease-in-out;
+  color: #000;
+  background-color: #fff;
+  outline: 3px solid #000;
+}
+#es-maybelline.es-maybelline .es-colors__single:hover .es-colors__img--lipgloss {
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+}
 #es-maybelline.es-maybelline .es-colors__tile {
   width: 100%;
   height: 100%;
@@ -354,12 +364,6 @@ body {
   background-color: #000;
   color: #fff;
   letter-spacing: -1px;
-}
-#es-maybelline.es-maybelline .es-colors__link:hover {
-  transition: all 0.3s ease-in-out;
-  color: #000;
-  background-color: #fff;
-  outline: 3px solid #000;
 }
 #es-maybelline.es-maybelline .es-steps {
   margin-top: 32px;
